@@ -28,7 +28,7 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-UK", {
             style: "currency",
             currency: "GBP"
-        }).format(inputCurrencyValue / euroToday)
+        }).format(inputCurrencyValue / libraToday)
     }
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-Br", {
