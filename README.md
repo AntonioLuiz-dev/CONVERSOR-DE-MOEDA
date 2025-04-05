@@ -1,7 +1,7 @@
 <h1>Conversor de Moedas</h1>
 <br>
 <br>
-<h2>Esse foi mais um projeto de site aplicando todas as tecnlogias: HTML, CSS e JavaScript que aprendi no <a href="rodolfimori.com.br/devclub">DevClub</a></h2>
+<h2>Esse foi mais um projeto de site aplicando todas as tecnlogias: HTML, CSS e JavaScript que aprendi no <a href="rodolfimori.com.br/devclub">DevClub</a> O conversor de moedas é uma facilidade para o portador do cartão porque apresenta o cálculo automático da conversão. Assim, o comprador visualiza o câmbio no ato da compra e opta pela melhor opção de moeda, sem precisar esperar a fatura do cartão.</h2>
 
 <h3>Tecnologias utilizadas</h3>
 <br>
