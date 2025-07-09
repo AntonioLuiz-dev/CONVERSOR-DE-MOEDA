@@ -1,138 +1,111 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
 }
 
 body {
-    background-color: #8A51FC;
+  background-color: #8A51FC;
 }
 
-/* Responsivo: A logo se adapta melhor */
+.fundo {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
 .logo {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
 }
 
-/* Caixa principal responsiva */
 main {
-    width: 100%;
-    max-width: 375px;
-    height: auto;
-    border-radius: 20px;
-    background: #F4F4F4;
-    margin: 0 auto 40px;
-    padding: 44px 24px 23px;
+  width: 375px;
+  border-radius: 20px;
+  background: #F4F4F4;
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
 }
 
 label {
-    color: #777;
-    font-size: 14px;
-    font-weight: 400;
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 select,
 input {
-    border-radius: 4px;
-    border: 1px solid #BBB;
-    background: #FFF;
-    height: 48px;
-    width: 100%;
-    margin-bottom: 24px;
-    appearance: none;
-    padding-left: 18px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #555;
-    cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #BBB;
+  background: #FFF;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  appearance: none;
+  padding-left: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #555;
+  cursor: pointer;
 }
 
 button {
-    border-radius: 5px;
-    background: #772FD3;
-    width: 100%;
-    border: none;
-    height: 48px;
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
+  border-radius: 5px;
+  background: #033bea;
+  width: 100%;
+  border: none;
+  height: 48px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: #777 0px 2px 4px;
 }
 
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 button:active {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 section {
-    flex-shrink: 0;
-    border-radius: 20px;
-    border: 1px solid #772FD3;
-    margin-top: 36px;
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border-radius: 20px;
+  border: 1px solid #033bea;
+  margin-top: 36px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .arrow-img {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .currency-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
 .currency {
-    color: #777;
-    font-size: 14px;
+  color: #777;
+  font-size: 14px;
+  text-shadow: #777 0px 1px 2px;
 }
 
 .currency-value, .currency-value-to-convert {
-    color: #555;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-/* MEDIA QUERIES */
-
-/* Telas menores que 480px (celulares pequenos) */
-@media (max-width: 480px) {
-    main {
-        padding: 32px 16px 20px;
-    }
-
-    select,
-    input {
-        font-size: 14px;
-    }
-
-    button {
-        font-size: 16px;
-    }
-
-    .currency-value, .currency-value-to-convert {
-        font-size: 18px;
-    }
-}
-
-/* Telas entre 481px e 768px (tablets) */
-@media (max-width: 768px) {
-    main {
-        max-width: 90%;
-    }
-
-    .logo {
-        max-width: 250px;
-    }
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: #555 0px 1px 2px;
 }
